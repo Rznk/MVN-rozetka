@@ -11,7 +11,7 @@ public class TvElectronicMenu {
     private By autoElectronicMenuElement = By.xpath(".//*[@id='menu_categories_left']/li[3]/h4/a");
     private By pageTitle = By.xpath(".//*[@class='pab-h1']");
 
-    public TvElectronicMenu(Webdriver driver){
+    public TvElectronicMenu(WebDriver driver){
         this.driver = driver;
     }
     public void openPhones(){

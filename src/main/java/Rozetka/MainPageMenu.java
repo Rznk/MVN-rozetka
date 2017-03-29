@@ -22,7 +22,7 @@ public class MainPageMenu {
 	private By hotels = By.xpath(".//*[@id='15954']/a");
 
 
-	public MainPageMenu(Webdriver driver){
+	public MainPageMenu(WebDriver driver){
 		this.driver = driver;
 	}
 	public void openNotebook(){

@@ -12,7 +12,7 @@ public class Phones {
 
 
 
-    public void Phones(Webdriver driver){
+    public Phones(WebDriver driver){
         this.driver = driver;
     }
     public void openSmartPhones(){

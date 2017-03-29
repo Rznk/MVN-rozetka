@@ -1,7 +1,6 @@
-package Rozetka;
+package rozetka;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class MainPageMenu {
 	private final WebDriver driver;
@@ -28,7 +27,7 @@ public class MainPageMenu {
 	public void openNotebook(){
 		driver.findElement(notebook).click();
 	}
-	public void openPhones(){
+	public void openTvPhones(){
 		driver.findElement(phones).click();
 	}
 	public void openAppliances(){

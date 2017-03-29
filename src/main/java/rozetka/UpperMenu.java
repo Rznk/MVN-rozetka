@@ -1,12 +1,11 @@
-package Rozetka;
+package rozetka;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class UpperMenu {
 	private final WebDriver driver;
-	private By searchInput = By.cssSelector(".rz-header-search-input-text.passive");
+	private By searchInput = By.cssSelector(".rz-header-searchForTopPhones-input-text.passive");
 	private By submitSearch = By.xpath(".//form/span/span/button");
 	private By loginWindow = By.xpath(".//*[@name='signin']");
 	private By comparison = By.xpath(".//*[@id='comparison']/a");

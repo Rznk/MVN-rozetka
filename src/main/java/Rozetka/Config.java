@@ -11,6 +11,6 @@ public class Config {
         System.setProperty("webdriver.chrome.driver", "src/main/java/driver/geckodriver.exe");
     }
 
-    private GlobalConfig() {
+    private Config() {
     }
 }
